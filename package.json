@@ -1,0 +1,17 @@
+{
+  "name": "qr_share",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.5",
+    "open": "^10.1.0",
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  }
+}
