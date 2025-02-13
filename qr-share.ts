@@ -145,7 +145,11 @@ async function main() {
             }
 
             if (decodeURIComponent(url.pathname.slice(1)) === fileName) {
-                return new Response(file);
+                return new Response(file, {
+                    headers: {
+                        "Content-Disposition": `attachment; filename="${fileName}"`,
+                    }
+                });
             }
 
             return new Response(html, {
