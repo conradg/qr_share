@@ -5,13 +5,12 @@ A simple tool to quickly share a file over a local network via a QR code.
 ## Features
 
 - Serves a file over HTTP with a QR code for easy sharing
-- Automatically generates a downloadable link
 - Uses WebSockets to detect when the client disconnects and shuts down the server
 - Opens the sharing page in the browser automatically (Mac only)
 
 ## Requirements
 
-- Bun installed
+- Bun
 
 ## Installation
 
